@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-color: #c58eeb;
+    height: 400px;
+    width: 600px;
+    border: 2px solid lightgray;
+    border-radius: 5%;
+}
+.container .title{
+    border-radius: 5% 5% 0 0;
+    width: 100%;
+    height: 10%;
+    background-color: #8d01f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 22px;
+}
+.title .signup{
+    color: aliceblue;
+    position: relative;
+    left: 155px;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.title .signup:hover{
+    text-decoration: underline;
+}
+.logindetails form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 61px;
+    gap: 3rem; 
+    padding-top: -4px;
+    padding-left: 58px;
+    padding-right: 58px;
+}
+.forms input{
+    text-align: center;
+    height: 30px;
+    border-radius: 3%;
+}
+.forpass{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    top: 45px;
+    padding: 12px;
+    padding-left: 35px;
+}
+.logindetails .forpass:hover{
+    text-decoration: underline;
+}
